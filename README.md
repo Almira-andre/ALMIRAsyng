@@ -74,7 +74,7 @@ def siapa():
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mperkenalkan nama saya muh andre frzky!!")
+		jalan("\033[1;97mSelamat datang di andre.com \033[1;92m" +nama+ "\n\033[1;97mperkenalkan nama saya muh andre frzky!!")
 		time.sleep(1)
 		loginSC()
 		
@@ -84,7 +84,7 @@ def loginSC():
 	print"\033[1;97mSilahkan login dulu bosque dan subscribe chanel aku\n"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="HACKER" and password =="FB":
+	if username =="frzky" and password =="andre":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		login()
